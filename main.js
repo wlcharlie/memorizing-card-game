@@ -38,7 +38,7 @@ const view = {
   },
   displayCards(indexes) {
     const rootElement = document.querySelector('#cards')
-    rootElement.innerHTML = i+ndexes.map(index => this.getCardElement(index)).join('')
+    rootElement.innerHTML = indexes.map(index => this.getCardElement(index)).join('')
   },
   transformNumber(number) {
     switch (number) {
